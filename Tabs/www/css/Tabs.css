@@ -1,0 +1,20 @@
+.selectableDiv{
+    text-align: center;
+    border: 1px solid black;
+    font-size: 4ex;
+    display: inline;
+    margin: 5px;
+    padding: 5px;
+}
+
+.MenuDiv{
+    overflow-x: auto;
+    white-space: nowrap;
+    
+    padding: 5%;
+    padding-top: 0px;
+}
+
+#image_board{
+    /*background-color: red !important;*/
+}
