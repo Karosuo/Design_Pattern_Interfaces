@@ -1,0 +1,12 @@
+body{
+    position: relative;
+}
+
+body div{
+    position: static;
+}
+
+p{
+    font-size: 3.5vw;
+}
+
