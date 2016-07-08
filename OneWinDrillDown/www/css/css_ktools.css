@@ -1,0 +1,133 @@
+/*CSS for Image Panel*/
+#image_board{
+    padding: 0px;
+    margin: 0px;
+    float: inherit;
+    background-color: inherit;
+    width: inherit;
+    height: auto;
+}
+
+.PECSimg{
+    width: 20%;
+    height: 15.3856%;
+    padding: 0px;
+    margin: 7.6923% 0% 0% 10%;
+}
+
+#image_board input{
+    padding: 0px;
+    margin: 0% 0% 7.6923% 25%;
+    width: 50%;
+    height: 7.6923%;
+    font-size: 5vw;
+}
+
+#AmountSelector{    
+    width: 23.1579%;
+    padding: 0px;
+    margin: 0% 0% 3.4483% 5.2632%;
+    display: block;
+    font-size: 3vw;
+}
+/*END CSS for Image Panel*/
+
+/*CSS for PhraseRow, or phrase holder*/
+
+#phraseContainer{
+    padding: 0px;
+    margin: 0px;
+    float: inherit;
+    background-color: inherit;
+    width: inherit;
+    height: auto;
+}
+ 
+#phraseContainer h1{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#phraseContainer p{    
+    display: inline;
+    font-size: 1.5rem;
+}
+
+#Sujeto{margin-left: 15%;}
+#Verbo{margin-left: 28%;}
+#Predicado{margin-left: 25%;}
+
+.phraseImg{
+    padding: 0px;
+    margin: 0% 0% 0% 5.2632%;
+    display: inline;
+    height: 34.4828%;
+    width: 26.3158%;
+}
+/*END CSS for PhraseRow, or phrase holder*/
+
+
+/*Utilities css*/
+
+.floatDiv{
+    /*
+    //These are the show props
+    width: 75%;
+    height: auto;    
+    float: left;
+    
+    position:absolute;
+    top:0px;
+    left:0.5%;
+    padding-left: 5%;
+    border: 1px solid red;
+    */
+    height: 100px; 
+    width: 100%; /*For v1 of drawer is 75%*/
+    float: left;
+    
+    position:absolute;
+    top:0px;
+    left:0.5%;
+    padding-left: 5%;
+    /*background: linear-gradient(to right, rgba(204,255,255,1.0),rgba(255,255,255,0.2));*/
+    background-color: white;
+}
+
+.floatTagM{
+    width: 5.5263%;
+    height: 7.2727%;     
+    float: left;
+    
+    /*background-color: black;*/ 
+    border: 1px solid black;
+    position: absolute;
+    top:0px;
+    left:0.5%;
+    padding-left: 5%; 
+}
+
+.floatTagD{
+    width: 5.5263%;
+    height: 7.2727%;   
+    float: left;
+    
+    /*background-color: black;*/
+    position: absolute;
+    top:0px;
+    left:0.5%;
+    padding-left: 5%;
+    background-image: url(../images/menu.png);
+    background-size: 10px 10px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.selectableDiv{
+}
+
+/*END Utilities CSS*/
